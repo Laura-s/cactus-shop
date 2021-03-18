@@ -20,10 +20,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/scss/main.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+     '~/plugins/formatPrice.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -37,10 +39,20 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/style-resources',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-
+  /*
+  ** Disabling Bootstrap Compiled CSS
+  */
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+  },
+  styleResources: {
+    scss: '@/assets/scss/_variables.scss'
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 

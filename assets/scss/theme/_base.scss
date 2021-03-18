@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-light .navbar-text {
+    color: $primary;
+    font-size: 20px;
+}
+.navbar-light .navbar-text  a{
+    color:$primary;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.navbar-light a:hover{
+    color: #6a3a2b;
+    text-decoration: none;
+}
+.modal.modal-dialog-aside .modal-dialog{
+	width: 350px;
+	max-width:80%; height: 100%; margin:0;
+	transform: translate(0); transition: transform .2s;
+}
+
+
+.modal.modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 0;}
+.modal.modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+.modal.fixed-right.modal-dialog-aside .modal-dialog{ margin-left:auto;  transform: translateX(100%); }
+.modal.fixed-left.modal-dialog-aside .modal-dialog{ margin-right:auto; transform: translateX(-100%); }
+
+.modal.show.modal-dialog-aside .modal-dialog{ transform: translateX(0);  }
