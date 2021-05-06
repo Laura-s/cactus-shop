@@ -44,7 +44,10 @@
           </div>
         </div>
       </div>
-      <div class="mapouter mx-auto"><div class="gmap_canvas"><iframe width="1258" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://youtube-embed-code.com">youtube embed code</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1258px;}</style><a href="https://google-map-generator.com">map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1258px;}</style></div></div>
+      <!-- <div class="mapouter mx-auto"><div class="gmap_canvas"><iframe width="1258" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://youtube-embed-code.com">youtube embed code</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1258px;}</style><a href="https://google-map-generator.com">map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1258px;}</style></div></div> -->
+
+      <Map />
+
     </div>
     
     <div class="credit">

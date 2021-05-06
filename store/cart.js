@@ -6,7 +6,8 @@ import { products } from '../static/products.js'
 export const state = () => ({
     counter: 10,
     products,
-    cartItems: []
+    cartItems: [],
+    selectedProduct: null,
 })
 
 export const mutations = {
@@ -35,12 +36,17 @@ export const mutations = {
         // console.log('gasit', foundProduct)
         if (foundProduct) {
             // already in cart
-            foundProduct.quantity = foundProduct.quantity + 1
+            console.log(payload.quantity)
+            foundProduct.quantity = foundProduct.quantity + payload.quantity
+            
         } else {
             // not in cart
             state.cartItems.push(payload)
         }
 
+    },
+    setSelectedProduct: (state, payload) =>{
+        state.selectedProduct = payload
     }
 
 }
