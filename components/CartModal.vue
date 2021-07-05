@@ -7,7 +7,7 @@
     >
       <template #modal-header>
         <div class="text-primary d-flex justify-content-between w-100">
-          <a @click.prevent="$bvModal.hide('cart-aside')">
+          <a @click.prevent="$bvModal.hide('cart-aside')" class="ml-2">
             <font-awesome-icon :icon="['fas', 'angle-right']" size="2x"
           /></a>
           <p class="m-0" style="font-size: 25px">CART</p>

@@ -1,22 +1,22 @@
 <template>
-  <footer class="mx-5 p-0">
+  <footer class="mx-2 mx-md-5 p-0">
     <div class="container-fluid mx-0 px-5 pt-5 bg-secondary text-light">
       <div class="container mt-5">
         <div class="row text-center mb-5">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <h5 class="mb-4">OUR STORE</h5>
             <p class="m-0 p-0">Address: 500 Terry Francois</p>
             <p class="m-0 p-0">Street San Francisco, CA 94158</p>
             <p class="m-0 p-0">Phone: 123-456-7890</p>
             <p class="m-0 p-0">Email: info@mysite.com</p>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <h5 class="mb-4">OPENING HOURS</h5>
             <p class="m-0 p-0">Mon - Fri: 7am - 10pm</p>
             <p class="m-0 p-0">Saturday: 8am - 10pm</p>
             <p class="m-0 p-0">Sunday: 8am - 11pm</p>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <h5 class="mb-4">HELP</h5>
             <span> <a href="" class="text-light">Shipping & Returns</a></span>
             <span> <a href="" class="text-light">Privacy Policy</a></span>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-5">
+          <div class="col-12 col-md-5">
             <h5 class="text-center mb-3">SUBSCRIBE</h5>
             <label for="footer-email">Enter your email here *</label><br />
             <input type="email" id="footer-email" />
@@ -44,9 +44,9 @@
           </div>
         </div>
       </div>
-      <!-- <div class="mapouter mx-auto"><div class="gmap_canvas"><iframe width="1258" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://youtube-embed-code.com">youtube embed code</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1258px;}</style><a href="https://google-map-generator.com">map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1258px;}</style></div></div> -->
+      <div class="mapouter mx-auto"><div class="gmap_canvas"><iframe width="1258" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://youtube-embed-code.com">youtube embed code</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1258px;}</style><a href="https://google-map-generator.com">map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1258px;}</style></div></div>
 
-      <Map />
+      <!-- <Map /> -->
 
     </div>
     

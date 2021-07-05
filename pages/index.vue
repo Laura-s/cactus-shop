@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-5 p-0">
+  <div class="mx-2 mx-md-5 p-0">
     <section class="hero text-light pb-5">
       <div class="hero-overlay d-flex flex-column justify-content-center pb-5">
         <div class="container hero-logo text-center mx-auto">
@@ -14,17 +14,17 @@
     </section>
     <section class="collection container-fluid my-5 p-0">
       <div class="row m-0 justify-content-start">
-        <div class="col cacti-collection mr-2 mr-md-5 pt-4 mb-2 text-center">
+        <div class="col-12 col-lg cacti-collection mr-md-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>CACTI</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
         </div>
-        <div class="col plants-collection mr-2 mr-md-5 pt-4 mb-2 text-center">
+        <div class="col-12 col-lg plants-collection mr-md-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>PLANTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
         </div>
-        <div class="col succulents-collection mr-2  pt-4 mb-2 text-center">
+        <div class="col-12 col-lg succulents-collection   pt-4 mb-2 text-center">
           <h5>SUCCULENTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
@@ -34,41 +34,38 @@
     
     <section id="about" class="container-fluid m-0 p-0">
       <div class="row m-0 p-0">
-        <div class="col-6 m-0 p-5 bg-light text-primary text-center">
-          <h5>ABOUT US</h5>
+        <div class="col-12 col-md-6 order-2 order-md-1 m-0 p-0 p-lg-5 bg-light text-primary text-center">
+          <h5 class="pt-3 pt-md-0">ABOUT US</h5>
           <div class="collection-line mx-auto my-4"></div>
-          <p class="mx-5">
+          <p class="mx-1 mx-lg-5 px-1">
             I'm a paragraph. Click here to add your own text and edit me. It’s
             easy. Just click “Edit Text” or double click me to add your own
             content and make changes to the font. Feel free to drag and drop me
             anywhere you like on your page. I’m a great place for you to tell a
             story and let your users know a little more about you.
           </p>
-          <p class="mx-5 pt-2">
+          <p class="mx-1 mx-lg-5 pt-2">
             This is a great space to write long text about your company and your
             services. You can use this space to go into a little more detail
             about your company. Talk about your team and what services you
             provide.
           </p>
         </div>
-        <div class="col-6 m-0 p-0 about-right d-flex">
+        <div class="col-12 col-md-6 order-1 order-md-2 m-0 p-0 about-right d-flex">
           <div class="col-6 m-0 p-0 about-one">
-            <!-- <img src="../static/images/images/about1.webp" alt="" /> -->
           </div>
           <div class="col-6 m-0 p-0 about-two">
-            <!-- <img src="../static/images/images/about2.webp" alt="" /> -->
           </div>
         </div>
       </div>
       <div class="row m-0 p-0">
-        <div class="col-6 m-0 p-0 about-girl">
-          <!-- <img src="../static/images/images/about3.webp" alt="" /> -->
+        <div class="col-12 col-md-6 m-0 p-0 about-girl">
         </div>
         <div
-          class="col-6 m-0 px-5 bg-secondary text-light text-center d-flex flex-column justify-content-center align-items-center"
+          class="col-12 col-md-6 m-0 px-5 bg-secondary text-light text-center d-flex flex-column justify-content-center align-items-center"
         >
           <h4>BUY ONLINE NOW & GET 10% OFF !</h4>
-          <button class="white-shop-btn mt-5"><a href="">Shop Now</a></button>
+          <button class="white-shop-btn mt-5 mb-3 mb-md-0"><a href="">Shop Now</a></button>
         </div>
       </div>
     </section>

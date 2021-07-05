@@ -46,16 +46,20 @@ body{
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 310px) { 
     .hero-logo span {
-            border-bottom: 2px solid white;
-        }
-
+        border-bottom: 2px solid white;
+    }
+    .hero-shop-overlay h1 {
+        font-size: 50px;
+      }
 }
 @media (min-width: 576px) {  
     .hero-overlay h1 {
         font-size: 40px;
     }
 
-    
+    .hero-shop-overlay h1 {
+        font-size: 70px;
+      }
     
 }
 // Medium devices (tablets, 768px and up)

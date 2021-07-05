@@ -11,7 +11,7 @@
         <b-dropdown-item href="/shop">All</b-dropdown-item>
         <b-dropdown-item href="/categories/cacti">Cacti</b-dropdown-item>
         <b-dropdown-item href="/categories/plant">Plants</b-dropdown-item>
-        <b-dropdown-item href="#">Succulents</b-dropdown-item>
+        <b-dropdown-item href="/categories/succulents">Succulents</b-dropdown-item>
         
       </b-nav-item-dropdown>
         <b-nav-text>

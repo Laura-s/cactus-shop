@@ -29,15 +29,18 @@ export default {
       });
       this.$bvModal.show("cart-aside");
     },
+    
   },
-computed: {
-    products () {
-      return this.$store.getters['cart/plant']
-    }
+  computed: {
+    products() {
+      return this.$store.getters["cart/succulent"];
+    },
   },
-}
+};
 </script>
 
-<style>
-
+<style lang="scss">
+.image-wrap {
+  position: relative;
+}
 </style>

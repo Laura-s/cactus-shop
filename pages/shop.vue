@@ -1,14 +1,14 @@
 <template>
-  <div class="mx-5 p-0">
+  <div class="mx-2 mx-md-5 p-0">
     <section class="hero-shop text-light container-fluid p-0 mx-0 mb-5">
       <div
         class="hero-shop-overlay d-flex flex-column justify-content-center pb-5"
       >
-        <div class="container px-5">
-          <h1 class="text-center mb-4 mx-5 px-4">
+        <div class="container px-0 px-md-5">
+          <h1 class="text-center mb-4 mx-md-5 px-md-4">
             EVERYTHING THAT GROWS IN OUR GARDEN
           </h1>
-          <p class="text-center mb-5 mx-5 px-5">
+          <p class="text-center mb-3 mb-md-5 mx-0 mx-md-5 px-2 px-md-5">
             I'm a paragraph. Click here to add your own text and edit me. It’s
             easy. Just click “Edit Text” or double click me to add your own
             content and make changes to the font. I’m a great place for you to
@@ -25,7 +25,7 @@
       </div>
     </section>
     <div class="container-fluid">
-      <div id="shop" class="row row-cols-3 gx-5 m-0 justify-content-start p-0">
+      <div id="shop" class="row row-cols-2 row-cols-md-3 gx-5 m-0 justify-content-start p-0">
       
           <Product
             v-for="product in products"
@@ -81,7 +81,5 @@ export default {
   height: 792px;
 }
 
-.hero-shop-overlay h1 {
-  font-size: 70px;
-}
+
 </style>

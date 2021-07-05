@@ -58,6 +58,9 @@ export const getters = {
     plant: state => {
         return state.products.filter(product => product.category === 'plant')
     },
+    succulent: state => {
+        return state.products.filter(product => product.category === 'succulent')
+    },
     total(state) {
         let totalPrice = 0;
         state.cartItems.forEach((element) => {
