@@ -44,17 +44,37 @@ body{
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  
+@media (min-width: 310px) { 
+    .hero-logo span {
+            border-bottom: 2px solid white;
+        }
 
 }
+@media (min-width: 576px) {  
+    .hero-overlay h1 {
+        font-size: 40px;
+    }
 
+    
+    
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {  
-
+    .hero-overlay h1 {
+        font-size: 80px;
+    }
+    .hero-logo span {
+        padding-bottom: 9px;
+    
+        letter-spacing: 0.45em;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+    .hero-overlay h1 {
+        font-size: 112px;
+    }
     .modal-dialog {
         max-width: 940px;
         // max-height: 620px;

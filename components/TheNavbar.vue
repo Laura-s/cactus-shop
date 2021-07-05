@@ -1,23 +1,19 @@
 <template>
-  <div>
-  <b-navbar toggleable="lg"  variant="info" class= "text-primary px-5 m-0 fixed-top">
+  <b-navbar toggleable="lg"  variant="info"  class= "text-primary px-5 m-0 fixed-top ">
     <b-navbar-brand class="logo">
          <NuxtLink to="/">PRICKLES & CO.</NuxtLink></b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle  target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="text-primary page-links">
-        <b-nav-item-dropdown text="Shop1" right>
-        <!-- <b-dropdown-item > <NuxtLink to="/shop">All</NuxtLink></b-dropdown-item> -->
+        <b-nav-item-dropdown text="Shop" class="main-dropdown mt-1 ml-3"  right>
+        <b-dropdown-item href="/shop">All</b-dropdown-item>
         <b-dropdown-item href="/categories/cacti">Cacti</b-dropdown-item>
         <b-dropdown-item href="/categories/plant">Plants</b-dropdown-item>
         <b-dropdown-item href="#">Succulents</b-dropdown-item>
         
       </b-nav-item-dropdown>
-        <b-nav-text class="">
-            <NuxtLink to="/shop">Shop2</NuxtLink>
-        </b-nav-text>
         <b-nav-text>
             <NuxtLink to="/#about">About</NuxtLink>
         </b-nav-text>
@@ -41,7 +37,6 @@
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
-</div>
 </template>
 
 <script>
@@ -56,6 +51,21 @@ export default {
 
 <style lang="scss">
 // @import 'assets/scss/_variables.scss';
+.main-dropdown{
+  span{
+    color: rgb(160, 88, 65);
+    font-size: 14px;
+    padding: 0;
+    vertical-align:bottom;
+  }
+  // a:first-of-type{
+  //   padding: 0;
+  // }
+  // a{
+  //   padding: 10px;
+  // }
+  
+}
 .logo{
   font-size: 22px;
 }

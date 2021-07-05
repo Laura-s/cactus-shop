@@ -18,4 +18,16 @@ export default {
 svg{
     fill: white;
 }
+
+
+@media (min-width: 310px) {
+    svg{
+        width: 100px;
+    }
+ }
+ @media (min-width: 576px) { 
+     svg{
+        width: 128px;
+    }
+ }
 </style>

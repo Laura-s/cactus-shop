@@ -14,17 +14,17 @@
     </section>
     <section class="collection container-fluid my-5 p-0">
       <div class="row m-0 justify-content-start">
-        <div class="col cacti-collection mr-5 pt-4 text-center">
+        <div class="col cacti-collection mr-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>CACTI</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
         </div>
-        <div class="col plants-collection mr-5 pt-4 text-center">
+        <div class="col plants-collection mr-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>PLANTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
         </div>
-        <div class="col succulents-collection pt-4 text-center">
+        <div class="col succulents-collection mr-2  pt-4 mb-2 text-center">
           <h5>SUCCULENTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
           <HomeButton label="Shop Collection" />
@@ -131,14 +131,8 @@ export default {
   background-color: rgba(34, 71, 68, 0.404);
   height: 792px;
 }
-.hero-logo span {
-  padding-bottom: 9px;
-  border-bottom: 2px solid white;
-  letter-spacing: 0.45em;
-}
-.hero-overlay h1 {
-  font-size: 112px;
-}
+
+
 .hero-overlay p {
   letter-spacing: 0.45em;
 }
