@@ -16,7 +16,7 @@
           </p>
           <a href="#shop"
             ><img
-              src="../static\images\svg\down-arrow.gif"
+              src="..\static\images\svg\down-arrow.gif"
               alt=""
               class="mx-auto d-block"
               style="width: 43px"
