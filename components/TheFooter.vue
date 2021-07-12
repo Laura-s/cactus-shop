@@ -44,14 +44,39 @@
           </div>
         </div>
       </div>
-      <div class="mapouter mx-auto"><div class="gmap_canvas"><iframe width="1258" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://youtube-embed-code.com">youtube embed code</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1258px;}</style><a href="https://google-map-generator.com">map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1258px;}</style></div></div>
-
-      <!-- <Map /> -->
-
+      <div class="mapouter mx-auto">
+        <div class="gmap_canvas pb-4">
+          <iframe
+            width="100%"
+            height="100%"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><br /><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 100%;
+              width: 100%;
+            }</style
+          ><style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 100%;
+              width: 100%;
+            }
+          </style>
+        </div>
+      </div>
     </div>
-    
+
     <div class="credit">
-        <p class="text-primary my-4 text-center">© 2023 by Prickles & Co.</p>
+      <p class="text-primary my-4 text-center">© 2023 by Prickles & Co.</p>
     </div>
   </footer>
 </template>
@@ -61,8 +86,8 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-footer{
-    overflow: hidden;
+footer {
+  overflow: hidden;
 }
 h5 {
   font-weight: lighter;
@@ -93,6 +118,13 @@ input {
     }
   }
 }
+.mapouter {
+  min-height: 300px;
+  #gmap_canvas {
+    height: 300px;
+  }
+}
+
 .socials img {
   height: 25px;
 }
