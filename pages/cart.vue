@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5 px-5 pt-5 d-flex justify-content-center">
+  <div class="container mt-5 px-5 py-5 d-flex justify-content-center">
     <div class="row w-100 mx-3">
       <div class="col-8 cart-wrap overflow-auto px-3 pt-3 text-primary">
         <h5 class="cart-item py-3">My Cart</h5>
@@ -27,8 +27,12 @@
             </div>
           </div>
         </div>
-        <p>Enter a promo code</p>
-        <p>Add a note</p>
+        <input
+          type="text"
+          placeholder="Enter a promo code"
+          class="text-primary note"
+        /><br />
+        <input type="text" placeholder="Add a note" class="text-primary note" />
       </div>
       <div class="col-4 text-primary pt-3">
         <h5 class="cart-item py-3">Order Summary</h5>
@@ -46,15 +50,14 @@
           <h5>Total</h5>
           <p>${{ total }}</p>
         </div>
-        <HomeButton label="Checkout" class="w-100" />
+        <HomeButton v-b-modal.modal-1 label="Checkout" class="w-100" />
+        
+
+        <b-modal id="modal-1"  size="sm">
+          <h1>End of demo</h1>
+        </b-modal>
       </div>
     </div>
-    <!-- <div v-for="product in cartItems" :key="product.id">
-      <img :src="product.image" alt="" style="width: 200px" />
-      <h5>{{ product.nume }}</h5>
-      <p>Price: $ {{ product.price }}</p>
-    </div>
-    <p>Total: {{ total }}</p> -->
   </div>
 </template>
 
@@ -95,5 +98,9 @@ export default {
   width: 64px;
   border: black 1px solid;
   background-color: white;
+}
+.note {
+  background-color: $info;
+  border: none;
 }
 </style>

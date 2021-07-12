@@ -1,5 +1,6 @@
 <template>
   <div class="container mt-5 pt-5 mb-5">
+    <h3 class="text-center text-primary mb-3">Succulent Collection</h3>
     <div class="row">
       <div
         v-for="product in products"
@@ -9,7 +10,7 @@
         <div class="image-wrap">
           <img :src="product.image" alt="" class="w-100" />
         </div>
-        <h5>{{ product.nume }}</h5>
+        <h5 class="mt-2">{{ product.nume }}</h5>
         <p>Price: {{ $formatPrice(product.price) }}</p>
         <div @click="addCartItem(product)">
           <HomeButton label="Add to Cart" class="w-100" />

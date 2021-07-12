@@ -11,7 +11,7 @@ const SUCCULENT = 'succulent'
 
 const products = [
     {
-        nume: 'cacti',
+        nume: 'Cacti',
         price: 10,
         image: 'https://static.wixstatic.com/media/697bc8_1a4fc29505ca44b7b3742e2e0ab5fda3~mv2_d_1920_1920_s_2.jpg/v1/fill/w_523,h_523,al_c,q_80,usm_0.66_1.00_0.01/697bc8_1a4fc29505ca44b7b3742e2e0ab5fda3~mv2_d_1920_1920_s_2.webp',
         id: uuidv4(),
@@ -48,7 +48,7 @@ const products = [
     {
         nume: 'Opuntia',
         price: 10,
-        image: 'https://images.thdstatic.com/productImages/9e5ecb5e-264e-43ec-b8d8-4a85a22aed93/svn/nearly-natural-artificial-plants-4845-64_1000.jpg',
+        image: 'https://i.imgur.com/2hs48Wyl.png',
         id: uuidv4(),
         category: CACTI
  },{
@@ -68,7 +68,7 @@ const products = [
     {
         nume: 'Crassula',
         price: 10,
-        image: 'https://cdn.shopify.com/s/files/1/0014/2203/2941/products/2f18d1e03cde698f5afde15871670c9f_570x570_crop_center.jpg',
+        image: 'https://i.ibb.co/jDTDvSx/planta.png"></a>',
         id: uuidv4(),
         category: SUCCULENT
     },

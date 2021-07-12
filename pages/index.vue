@@ -17,17 +17,23 @@
         <div class="col-12 col-lg cacti-collection mr-md-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>CACTI</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
-          <HomeButton label="Shop Collection" />
+          <CollectionButton 
+          label="Cacti Collection" 
+          :page="'categories/cacti'"/>
         </div>
         <div class="col-12 col-lg plants-collection mr-md-2 mr-md-5 pt-4 mb-2 text-center">
           <h5>PLANTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
-          <HomeButton label="Shop Collection" />
+          <CollectionButton 
+          label="Plants Collection" 
+          :page="'categories/plant'"/>
         </div>
         <div class="col-12 col-lg succulents-collection   pt-4 mb-2 text-center">
           <h5>SUCCULENTS</h5>
           <div class="collection-line mx-auto mt-4 mb-3"></div>
-          <HomeButton label="Shop Collection" />
+          <CollectionButton 
+          label="Succulents Collection" 
+          :page="'categories/succulents'"/>
         </div>
       </div>
     </section>
@@ -38,11 +44,7 @@
           <h5 class="pt-3 pt-md-0">ABOUT US</h5>
           <div class="collection-line mx-auto my-4"></div>
           <p class="mx-1 mx-lg-5 px-1">
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. Feel free to drag and drop me
-            anywhere you like on your page. I’m a great place for you to tell a
-            story and let your users know a little more about you.
+            I'm a paragraph. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eius itaque at dolorem eum culpa deleniti nihil ipsum illum quam blanditiis, necessitatibus facere voluptatum. Tempore similique consequatur totam unde id tenetur accusantium tempora blanditiis consectetur fugiat, magnam quaerat sit a. Rerum ut provident cupiditate fuga facere cum eligendi quis laboriosam veniam esse? 
           </p>
           <p class="mx-1 mx-lg-5 pt-2">
             This is a great space to write long text about your company and your
