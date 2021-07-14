@@ -9,7 +9,9 @@
         </div>
         <h1 class="text-center mb-4">PRICKLES & CO</h1>
         <p class="text-center mb-5">BRING NATURE INDOORS</p>
-        <HomeButton class="mx-auto" />
+        <CollectionButton class="mx-auto" 
+        label="Shop Now"
+        :page="'shop'"/>
       </div>
     </section>
     <section class="collection container-fluid my-5 p-0">
@@ -67,7 +69,7 @@
           class="col-12 col-md-6 m-0 px-5 bg-secondary text-light text-center d-flex flex-column justify-content-center align-items-center"
         >
           <h4>BUY ONLINE NOW & GET 10% OFF !</h4>
-          <button class="white-shop-btn mt-5 mb-3 mb-md-0"><a href="">Shop Now</a></button>
+          <button class="white-shop-btn mt-5 mb-3 mb-md-0"><NuxtLink  to="shop">Shop Now</NuxtLink></button>
         </div>
       </div>
     </section>
@@ -96,7 +98,7 @@
             <input type="text" id="phone" />
             <label for="message">Message</label>
             <textarea id="message" cols="30" rows="6"></textarea>
-            <button class="form-button mt-3"><a href="">Send</a> </button>
+            <button class="form-button mt-3"><a >Send</a> </button>
           </div>
         </form>
       </div>

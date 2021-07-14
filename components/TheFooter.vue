@@ -1,23 +1,23 @@
 <template>
   <footer class="mx-2 mx-md-5 p-0">
-    <div class="container-fluid mx-0 px-5 pt-5 bg-secondary text-light">
+    <div class="container-fluid mx-0 px-3 px-md-5 pt-5 bg-secondary text-light">
       <div class="container mt-5">
         <div class="row text-center mb-5">
           <div class="col-12 col-md-4">
-            <h5 class="mb-4">OUR STORE</h5>
+            <h5 class="mb-4 ">OUR STORE</h5>
             <p class="m-0 p-0">Address: 500 Terry Francois</p>
             <p class="m-0 p-0">Street San Francisco, CA 94158</p>
             <p class="m-0 p-0">Phone: 123-456-7890</p>
             <p class="m-0 p-0">Email: info@mysite.com</p>
           </div>
           <div class="col-12 col-md-4">
-            <h5 class="mb-4">OPENING HOURS</h5>
+            <h5 class="mb-4 mt-5 mt-md-0">OPENING HOURS</h5>
             <p class="m-0 p-0">Mon - Fri: 7am - 10pm</p>
             <p class="m-0 p-0">Saturday: 8am - 10pm</p>
             <p class="m-0 p-0">Sunday: 8am - 11pm</p>
           </div>
           <div class="col-12 col-md-4 d-flex flex-column">
-            <h5 class="mb-4">HELP</h5>
+            <h5 class="mb-4 mt-5 mt-md-0">HELP</h5>
             <span> <a href="" class="text-light">Shipping & Returns</a></span>
             <span> <a href="" class="text-light">Privacy Policy</a></span>
             <span> <a href="" class="text-light">FAQ</a></span>
@@ -28,7 +28,7 @@
             <h5 class="text-center mb-3">SUBSCRIBE</h5>
             <label for="footer-email">Enter your email here *</label><br />
             <input type="email" id="footer-email" />
-            <button class="footer-btn ml-2">
+            <button class="footer-btn ml-lg-2">
               <a href="">Subscribe Now</a>
             </button>
             <br />

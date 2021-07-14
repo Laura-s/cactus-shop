@@ -1,9 +1,9 @@
 <template>
   <div class="pt-3 bg-light pb-5 d-flex justify-content-center align-items-center">
-    <div class="container text-primary px-5">
+    <div class="container text-primary px-3 px-md-5">
       <h4 class="text-center mt-5">FAQ</h4>
       <div class="collection-line mx-auto mt-4 mb-3"></div>
-      <div class="container d-flex flex-column justify-content-end px-5 ">
+      <div class="container d-flex flex-column justify-content-end px-0 px-md-5 ">
         <input type="text" v-model="searchFAQ" placeholder="search" class="ml-auto ">
         
         <div :key="index" v-for="(question, index) in filterQuestions" role="tablist" >
@@ -28,7 +28,6 @@
             >
               <b-card-body>
                 <b-card-text>{{ question.answer }} </b-card-text>
-
                 <font-awesome-icon :icon="['fab', 'facebook-f']" />
                 <font-awesome-icon :icon="['fab', 'twitter']" size="sm" />
               </b-card-body>
@@ -54,7 +53,7 @@ export default {
       },
       {
         title: "Planting instructions",
-        answer: `1. Bla bla  2. bla bla bla  3. Lorem bla bla`,
+        answer: `1. Lorem ipsum dolor  2. amet consectetur adipisicing  3. Quidem, at!`,
       },
       {
         title: "Returns",

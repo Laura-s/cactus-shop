@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5 px-5 py-5 d-flex justify-content-center">
-    <div class="row w-100 mx-3">
-      <div class="col-8 cart-wrap overflow-auto px-3 pt-3 text-primary">
+    <div class="row w-100 mx-0 mx-md-3">
+      <div class="col-12 col-md-8 cart-wrap overflow-auto px-0 px-md-3 pt-3 text-primary">
         <h5 class="cart-item py-3">My Cart</h5>
 
         <div
@@ -34,7 +34,7 @@
         /><br />
         <input type="text" placeholder="Add a note" class="text-primary note" />
       </div>
-      <div class="col-4 text-primary pt-3">
+      <div class="col-12 col-md-4 text-primary pt-3 px-0 px-md-3">
         <h5 class="cart-item py-3">Order Summary</h5>
         <div class="cart-item py-4">
           <div class="row d-flex justify-content-between w-100 m-0">
